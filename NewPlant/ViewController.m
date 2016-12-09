@@ -14,9 +14,22 @@
 
 @implementation ViewController
 
+//delegate
+-(void) message:(UIAlertController *)alert
+{
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.myview.delegatemyview=self;
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void) viewDidAppear:(BOOL)animated
+{
+
 }
 
 - (void)didReceiveMemoryWarning {

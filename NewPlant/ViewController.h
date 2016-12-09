@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "MyView.h"
+@interface ViewController : UIViewController<MyViewDelegateMsg>
+@property (weak, nonatomic) IBOutlet MyView *myview;
 
 @end
 
