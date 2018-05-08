@@ -4,4 +4,4 @@
 碰到紅色則結束遊戲<br>
 <br>
 <br>
-![alt tag](https://github.com/eggeggss/FightFly/blob/master/12月-10-2016%2000-51-14plant.gif)
+<img src="https://github.com/eggeggss/FightFly/blob/master/12月-10-2016%2000-51-14plant.gif" width="500" height="800" />
